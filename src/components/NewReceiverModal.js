@@ -44,7 +44,7 @@ const NewReceiverModal = () => {
       <Button
         sx={{ alignSelf: 'center', marginTop: 1 }}
         variant='outlined'
-      // onClick={() => setOpen(true)}
+        onClick={() => setOpen(true)}
       >
         Nuevo destinatario
       </Button>

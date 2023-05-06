@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://pay.deliver.ar:4000";
+//const BASE_URL = "http://pay.deliver.ar:4000";
+const BASE_URL = "http://localhost:3100";
 
 const ROUTES = {
   login: "/users/login",

@@ -69,9 +69,10 @@ const MakePaymentModal = () => {
             >
               {receivers.map(receiver => (
                 <MenuItem key={receiver.id} value={receiver.account}>
-                  {receiver.account.user.name}
+                  {receiver?.account?.user?.name}
                 </MenuItem>
               ))}
+              {console.log("receivers",receivers)}
             </Select>
           </FormControl>
           <NewReceiverModal />
