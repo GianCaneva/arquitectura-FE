@@ -36,8 +36,8 @@ const MakePaymentModal = () => {
     }
     const paymentData = {
       creditUser: {
-        docTypeId: 1,
-        docNumber: selectedReceiver.id
+        docTypeId: selectedReceiver.user.docTypeId,
+        docNumber: selectedReceiver.user.docNumber
       },
       amount,
       description,
